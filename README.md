@@ -40,3 +40,9 @@ Projeyi bilgisayarınızda çalıştırmak için Python 3.x yüklü olmalıdır.
     python decryption.py --> Şifreyi Çözer
     ```
 3.  Ekrandaki yönergeleri izleyin.
+## 🔮 Gelecek Güncellemeler (Roadmap)
+[ ] Veri boyutunu düşürmek için "Sabit Genişlik" yerine "Ayıraçlı (Delimiter)" yapıya geçilmesi (CSV mantığı).
+
+[ ] Kullanıcı arayüzü (GUI) eklenmesi.
+
+[ ] Şifreleme algoritmasının matematiksel işlemlerle (Sezar, XOR) güçlendirilmesi.

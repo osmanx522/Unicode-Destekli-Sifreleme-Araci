@@ -6,14 +6,14 @@ Bu proje, metin tabanlı verileri ASCII ve Unicode standartlarını kullanarak s
 
 ## 🚀 Proje Hakkında
 
-Bu araç, girilen herhangi bir metni (String) bilgisayarın anlayabileceği sayısal değerlere (Decimal) dönüştürür. Savunma sanayi ve veri işleme alanındaki **veri serileştirme** (serialization) ve **sabit genişlikli kodlama** (fixed-width encoding) mantığını kavramak amacıyla, 1. sınıf üniversite projesi olarak geliştirilmiştir.
+Bu araç, girilen herhangi bir metni (String) bilgisayarın anlayabileceği sayısal değerlere (Decimal) dönüştürür. Savunma sanayi ve veri işleme alanındaki **veri serileştirme** (serialization) ve **sabit genişlikli kodlama** (fixed-width encoding) mantığını kavramak amacıyla geliştirilmiştir.
 
 ## ✨ Özellikler
 
 * **Tam Unicode Desteği:** Türkçe karakterler (ç, ş, ğ) ve Emojis (🚀, 😊) sorunsuz işlenir.
-* **Sabit Genişlikli Kodlama:** Her karakter, veri bütünlüğünü korumak için 7 haneli standart bir formata (`zfill(7)`) dönüştürülür.
+* **Sabit Genişlikli Kodlama:** Her karakter, veri bütünlüğünü korumak için 7 haneli standart bir formata dönüştürülür.
 * **Dosya İşlemleri (I/O):** Şifrelenen veriler `.txt` dosyasına kaydedilir ve oradan okunur.
-* **Modüler Yapı:** Şifreleme, dosya okuma/yazma ve deşifreleme işlemleri ayrı fonksiyonlarda (Single Responsibility Principle) ele alınmıştır.
+* **Modüler Yapı:** Şifreleme, dosya okuma/yazma ve deşifreleme işlemleri ayrı fonksiyonlarda ele alınmıştır.
 
 ## ⚙️ Algoritma Mantığı
 
@@ -35,12 +35,8 @@ Projeyi bilgisayarınızda çalıştırmak için Python 3.x yüklü olmalıdır.
     ```
 2.  Proje dizinine gidin ve çalıştırın:
     ```bash
-    python main.py
+    python encryption.py --> Metni Şifreler
+    veya
+    python decryption.py --> Şifreyi Çözer
     ```
 3.  Ekrandaki yönergeleri izleyin.
-
-## Example (Örnek Senaryo)
-
-**Girdi (Input):**
-```text
-Selam 🚀
